@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignment overview | Network Science</title>
+    <link>https://uvaDS8104.github.io/assignment/</link>
+      <atom:link href="https://uvaDS8104.github.io/assignment/index.xml" rel="self" type="application/rss+xml" />
+    <description>Assignment overview</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <image>
+      <url>https://uvaDS8104.github.io/img/social-image.png</url>
+      <title>Assignment overview</title>
+      <link>https://uvaDS8104.github.io/assignment/</link>
+    </image>
+    
+    <item>
+      <title>Mini project 1</title>
+      <link>https://uvaDS8104.github.io/assignment/01-mini-project/</link>
+      <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://uvaDS8104.github.io/assignment/01-mini-project/</guid>
+      <description>
+&lt;script src=&#34;https://uvaDS8104.github.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#instructions&#34;&gt;Instructions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#starter-code&#34;&gt;Starter code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;New York City is full of urban wildlife, and rats are one of the city’s most infamous animal mascots. Rats in NYC are plentiful, but they also deliver food, so they’re useful too.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/PeJUqcbool4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;NYC keeps incredibly detailed data regarding animal sightings, including rats, and &lt;a href=&#34;https://www.kaggle.com/new-york-city/nyc-rat-sightings/data&#34;&gt;it makes this data publicly available&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For this first mini project, you will use &lt;strong&gt;R and ggplot2&lt;/strong&gt; to tell an interesting story hidden in the data. You can recreate one of these ugly, less-than-helpful graphs, or create a new story by looking at other variables in the data:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://uvaDS8104.github.io/img/assignments/rat_examples.png&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
+&lt;div id=&#34;instructions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Instructions&lt;/h2&gt;
+&lt;p&gt;Here’s what you need to do:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Create&lt;/strong&gt; a new RStudio project and place it on your computer somewhere. Open that new folder in Windows File Explorer or macOS Finder (however you navigate around the files on your computer), and create two subfolders there named &lt;code&gt;data&lt;/code&gt; and &lt;code&gt;output&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Download&lt;/strong&gt; New York City’s database of rat sightings since 2010:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://raw.githubusercontent.com/andrewheiss/datavizf18.classes.andrewheiss.com/master/static/data/Rat_Sightings.csv&#34; target=&#34;_blank&#34; download&gt;&lt;i class=&#34;fas fa-file-csv&#34;&gt;&lt;/i&gt; &lt;code&gt;Rat_Sightings.csv&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Place this in the &lt;code&gt;data&lt;/code&gt; subfolder you created in step 1. You might need to right click on this link and choose “Save link as…”, since your browser may try to display it as text. The data was originally &lt;a href=&#34;https://www.kaggle.com/new-york-city/nyc-rat-sightings/data&#34;&gt;uploaded by the City of New York to Kaggle&lt;/a&gt;, and is provided with a public domain license.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Create&lt;/strong&gt; a new R Markdown file and save it in your project. In RStudio go to File &amp;gt; New File &amp;gt; R Markdown…, choose the default options, and delete all the placeholder text in the new file except for the metadata at the top, which is between &lt;code&gt;---&lt;/code&gt; and &lt;code&gt;---&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Verify&lt;/strong&gt; that your project folder is structured like this:&lt;/p&gt;
+&lt;pre class=&#34;text&#34;&gt;&lt;code&gt;your-project-name/
+  your-analysis.Rmd
+  your-project-name.Rproj
+  data/
+    Rat_Sightings.csv
+  output/
+    NOTHING&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Summarize&lt;/strong&gt; the data somehow. The raw data has more than 100,000 rows, which means you’ll need to aggregate the data (&lt;code&gt;filter()&lt;/code&gt;, &lt;code&gt;group_by()&lt;/code&gt;, and &lt;code&gt;summarize()&lt;/code&gt; will be your friends). Consider looking at the number of sightings per borough, per year, per dwelling type, etc., or a combination of these, like the change in the number sightings across the 5 boroughs between 2010 and 2016.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Create&lt;/strong&gt; an appropriate visualization based on the data you summarized.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Write&lt;/strong&gt; a memo (no word limit) explaining your process. I’m specifically looking for a discussion of the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What was wrong with the original graphic (if you’re fixing one of the original figures)?&lt;/li&gt;
+&lt;li&gt;What story are you telling with your new graphic?&lt;/li&gt;
+&lt;li&gt;How did you apply the principles of CRAP?&lt;/li&gt;
+&lt;li&gt;How did you apply Kieran Healy’s principles of great visualizations or Alberto Cairo’s five qualities of great visualizations?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Upload&lt;/strong&gt; the following outputs to iCollege:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A PDF or Word file of your memo with your final code and graphic embedded in it.&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; This means you’ll need to do all your coding in an R Markdown file and embed your code in chunks.&lt;/li&gt;
+&lt;li&gt;A standalone PNG version of your graphic. Use &lt;code&gt;ggsave(plot_name, filename = &#34;output/blah.png&#34;, width = XX, height = XX)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;A standalone PDF version of your graphic. Use &lt;code&gt;ggsave(plot_name, filename = &#34;output/blah.pdf&#34;, width = XX, height = XX)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You will be graded based on completion using the standard ✓ system, but I’ll provide comments on how you use R and &lt;strong&gt;ggplot2&lt;/strong&gt;, how well you apply the principles of CRAP, &lt;em&gt;The Truthful Art&lt;/em&gt;, and &lt;em&gt;Effective Data Visualization&lt;/em&gt;, and how appropriate the graph is for the data and the story you’re telling. I will use &lt;a href=&#34;https://uvaDS8104.github.io/files/mini-project-1-rubric.pdf&#34;&gt;this rubric&lt;/a&gt; to make comments and provide you with a simulated grade.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://uvaDS8104.github.io/files/mini-project-1-rubric.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; &lt;code&gt;mini-project-1-rubric.pdf&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For this assignment, I am less concerned with detailed graphic design principles—select appropriate colors, change fonts if you’re brave, and choose a nice ggplot theme and make some adjustments like moving the legend around (&lt;code&gt;theme(legend.position = &#34;bottom&#34;)&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The assignment is due by 11:59 PM on Friday, May 226&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Please seek out help when you need it!&lt;/strong&gt; You know enough R (and have enough examples of code from class and your readings) to be able to do this. Your project has to be turned in individually, and your visualization should be your own (i.e. if you work with others, don’t all turn in the same graph), but you should work with others! Reach out to me for help too—I’m here to help!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;You can do this,&lt;/em&gt; and you’ll feel like a budding dataviz witch/wizard when you’re done.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;starter-code&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Starter code&lt;/h2&gt;
+&lt;p&gt;I’ve provided some starter code below. A couple comments about it:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;By default, &lt;code&gt;read_csv()&lt;/code&gt; treats cells that are empty or “NA” as missing values. This rat dataset uses “N/A” to mark missing values, so we need to add that as a possible marker of missingness (hence &lt;code&gt;na = c(&#34;&#34;, &#34;NA&#34;, &#34;N/A&#34;)&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;To make life easier, I’ve renamed some of the key variables you might work with. You can rename others if you want.&lt;/li&gt;
+&lt;li&gt;I’ve also created a few date-related variables (&lt;code&gt;sighting_year&lt;/code&gt;, &lt;code&gt;sighting_month&lt;/code&gt;, &lt;code&gt;sighting_day&lt;/code&gt;, and &lt;code&gt;sighting_weekday&lt;/code&gt;). You don’t have to use them, but they’re there if you need them. The functions that create these, like &lt;code&gt;year()&lt;/code&gt; and &lt;code&gt;wday()&lt;/code&gt; are part of the &lt;strong&gt;lubridate&lt;/strong&gt; library.&lt;/li&gt;
+&lt;li&gt;The date/time variables are formatted like &lt;code&gt;04/03/2017 12:00:00 AM&lt;/code&gt;, which R is not able to automatically parse as a date when reading the CSV file. You can use the &lt;code&gt;mdy_hms()&lt;/code&gt; function in the &lt;strong&gt;lubridate&lt;/strong&gt; library to parse dates that are structured as “month-day-year-hour-minute”. There are also a bunch of other iterations of this function, like &lt;code&gt;ymd()&lt;/code&gt;, &lt;code&gt;dmy()&lt;/code&gt;, etc., for other date formats.&lt;/li&gt;
+&lt;li&gt;There’s one row with an unspecified borough, so I filter that out.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(tidyverse)
+library(lubridate)
+
+rats_raw &amp;lt;- read_csv(&amp;quot;data/Rat_Sightings.csv&amp;quot;, na = c(&amp;quot;&amp;quot;, &amp;quot;NA&amp;quot;, &amp;quot;N/A&amp;quot;))
+
+# If you get an error that says &amp;quot;All formats failed to parse. No formats
+# found&amp;quot;, it&amp;#39;s because the mdy_hms function couldn&amp;#39;t parse the date. The date
+# variable *should* be in this format: &amp;quot;04/03/2017 12:00:00 AM&amp;quot;, but in some
+# rare instances, it might load without the seconds as &amp;quot;04/03/2017 12:00 AM&amp;quot;.
+# If there are no seconds, use mdy_hm() instead of mdy_hms().
+rats_clean &amp;lt;- rats_raw %&amp;gt;%
+  rename(created_date = `Created Date`,
+         location_type = `Location Type`,
+         borough = Borough) %&amp;gt;%
+  mutate(created_date = mdy_hms(created_date)) %&amp;gt;%
+  mutate(sighting_year = year(created_date),
+         sighting_month = month(created_date),
+         sighting_day = day(created_date),
+         sighting_weekday = wday(created_date, label = TRUE, abbr = FALSE)) %&amp;gt;%
+  filter(borough != &amp;quot;Unspecified&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You’ll summarize the data with functions from &lt;strong&gt;dplyr&lt;/strong&gt;, including stuff like &lt;code&gt;count()&lt;/code&gt;, &lt;code&gt;arrange()&lt;/code&gt;, &lt;code&gt;filter()&lt;/code&gt;, &lt;code&gt;group_by()&lt;/code&gt;, &lt;code&gt;summarize()&lt;/code&gt;, and &lt;code&gt;mutate()&lt;/code&gt;. Here are some examples of ways to summarize the data:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# See the count of rat sightings by weekday
+rats_clean %&amp;gt;%
+  count(sighting_weekday)
+
+# Assign a summarized data frame to an object to use it in a plot
+rats_by_weekday &amp;lt;- rats_clean %&amp;gt;%
+  count(sighting_weekday, sighting_year)
+
+ggplot(rats_by_weekday, aes(x = fct_rev(sighting_weekday), y = n)) + 
+  geom_col() +
+  coord_flip() +
+  facet_wrap(~ sighting_year)
+
+# See the count of rat sightings by weekday and borough
+rats_clean %&amp;gt;%
+  count(sighting_weekday, borough, sighting_year)
+
+# An alternative to count() is to specify the groups with group_by() and then
+# be explicit about how you&amp;#39;re summarizing the groups, such as calculating the
+# mean, standard deviation, or number of observations (we do that here with
+# `n()`).
+rats_clean %&amp;gt;%
+  group_by(sighting_weekday, borough) %&amp;gt;%
+  summarize(n = n())&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;You can approach this in a couple different ways—you can write the memo and then include the full figure and code at the end, &lt;a href=&#34;https://rud.is/b/2017/09/18/mapping-fall-foliage-with-sf/&#34;&gt;similar to this blog post&lt;/a&gt;, or you can write the memo in an incremental way, describing the different steps of creating the figure, ultimately arriving at a clean final figure, &lt;a href=&#34;https://rudeboybert.github.io/fivethirtyeight/articles/bechdel.html&#34;&gt;like this blog post&lt;/a&gt;.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introduction to R and the tidyverse</title>
+      <link>https://uvaDS8104.github.io/assignment/01-exercise/</link>
+      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://uvaDS8104.github.io/assignment/01-exercise/</guid>
+      <description>
+&lt;script src=&#34;https://uvaDS8104.github.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#task-1-make-an-rstudio-project&#34;&gt;Task 1: Make an RStudio Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#task-2-make-an-r-markdown-file-with-a-plot-in-it&#34;&gt;Task 2: Make an R Markdown file with a plot in it&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;task-1-make-an-rstudio-project&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Task 1: Make an RStudio Project&lt;/h2&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Use either RStudio.cloud or RStudio on your computer (preferably RStudio on your computer! &lt;a href=&#34;https://uvaDS8104.github.io/resource/install/&#34;&gt;Follow these instructions to get started!&lt;/a&gt;) to create a new RStudio Project.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Create a folder named “data” in the project folder you just made.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Download this CSV file and place it in that folder:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://uvaDS8104.github.io/data/cars.csv&#34;&gt;&lt;i class=&#34;fas fa-file-csv&#34;&gt;&lt;/i&gt; &lt;code&gt;cars.csv&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In RStudio, go to “File” &amp;gt; “New File…” &amp;gt; “R Markdown…” and click “OK” in the dialog without changing anything.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Delete all the placeholder text in that new file and replace it with this:&lt;/p&gt;
+&lt;pre class=&#34;text&#34;&gt;&lt;code&gt;---
+title: &amp;quot;Exercise 1&amp;quot;
+author: &amp;quot;Put your name here&amp;quot;
+output: html_document
+---
+
+# Reflection
+
+Replace this text with your reflection
+
+
+# My first plot
+
+```{r load-libraries-data, warning=FALSE, message=FALSE}
+library(tidyverse)
+
+cars &amp;lt;- read_csv(&amp;quot;data/cars.csv&amp;quot;)
+```
+
+Replace this line with a code chunk and use it to create a plot.
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Save the R Markdown file with some sort of name (&lt;strong&gt;without any spaces!&lt;/strong&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Your project folder should look something like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://uvaDS8104.github.io/img/assignments/project-structure.png&#34; width=&#34;30%&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;task-2-make-an-r-markdown-file-with-a-plot-in-it&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Task 2: Make an R Markdown file with a plot in it&lt;/h2&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Add your reading reflection to the appropriate place in the R Markdown file. You can type directly in RStudio if you want (though there’s no spell checker), or you can type it in Word or Google Docs and then paste it into RStudio.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Remove the text that says “Replace this line with a code chunk” and insert a new R code chunk. Either type &lt;kbd&gt;ctrl&lt;/kbd&gt; + &lt;kbd&gt;alt&lt;/kbd&gt; + &lt;kbd&gt;i&lt;/kbd&gt; on Windows, or &lt;kbd&gt;⌘&lt;/kbd&gt; + &lt;kbd&gt;⌥&lt;/kbd&gt; + &lt;kbd&gt;i&lt;/kbd&gt; on macOS, or use the “Insert Chunk” menu:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://uvaDS8104.github.io/img/assignments/insert-chunk-button.png&#34; width=&#34;19%&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use &lt;code&gt;ggplot()&lt;/code&gt; to create a scatterplot using the &lt;code&gt;mpg&lt;/code&gt; dataset. Use whatever variables you want. Type the code to create the plot in the new empty chunk.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Knit your document as a Word file (or PDF if you’re brave and &lt;a href=&#34;https://uvaDS8104.github.io/resource/install/#install-tinytex&#34;&gt;installed LaTeX&lt;/a&gt;). Use the “Knit” menu:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://uvaDS8104.github.io/img/assignments/knit-button.png&#34; width=&#34;30%&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Upload the knitted document to iCollege.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;🎉 Party! 🎉&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;You’ll be doing this same process for all your future exercises. Each exercise will involve an R Markdown file. You can either create a new RStudio Project directory for all your work:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://uvaDS8104.github.io/img/reference/rproj-one-folder.png&#34; width=&#34;30%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Or you can create individual projects for each assignment and mini-project:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://uvaDS8104.github.io/img/reference/rproj-multiple-folders.png&#34; width=&#34;30%&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Final project</title>
+      <link>https://uvaDS8104.github.io/assignment/final-project/</link>
+      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://uvaDS8104.github.io/assignment/final-project/</guid>
+      <description>
+&lt;script src=&#34;https://uvaDS8104.github.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#data-from-the-internet&#34;&gt;Data from the internet&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#nonprofit-management&#34;&gt;Nonprofit management&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#federal-state-and-local-government-management&#34;&gt;Federal, state, and local government management&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#business-management&#34;&gt;Business management&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#instructions&#34;&gt;Instructions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#final-deliverables&#34;&gt;Final deliverables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#past-examples&#34;&gt;Past examples&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#travel-runs-in-yellowstone&#34;&gt;Travel runs in Yellowstone&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#firefighter-fatalities&#34;&gt;Firefighter fatalities&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#scripture-use-by-the-killers&#34;&gt;Scripture use by &lt;em&gt;The Killers&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#utah-nonprofits&#34;&gt;Utah nonprofits&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#buckethead&#34;&gt;Buckethead&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You made it to the end of our whirlwind tour of data visualization principles! Congratulations!&lt;/p&gt;
+&lt;p&gt;Now you get to show off all the tools you learned with a beautiful, truthful, narrative visualization.&lt;/p&gt;
+&lt;p&gt;For your final project, you will take a dataset, explore it, tinker with it, and tell a nuanced story about it using at least three graphs.&lt;/p&gt;
+&lt;p&gt;I want this project to be as useful for you and your future career as possible—you’ll hopefully want to show off your final project in a portfolio or during job interviews.&lt;/p&gt;
+&lt;p&gt;Accordingly, you have some choice in what data you can use for this project. I’ve found several different high-quality datasets online related to the core MPA/MPP tracks. &lt;strong&gt;You do not have to choose a dataset in your given field&lt;/strong&gt; (especially if you’re not an MPA or MPP student!) Choose whatever one you are most interested in or will have the most fun with.&lt;/p&gt;
+&lt;div id=&#34;data-from-the-internet&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Data from the internet&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://uvaDS8104.github.io/resource/data/&#34;&gt;Go to this list of data sources&lt;/a&gt; and find something interesting! The things in the “Data is Plural” newsletter are often especially interesting and fun. Here are some different high-quality datasets that students have worked with before:&lt;/p&gt;
+&lt;div id=&#34;nonprofit-management&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Nonprofit management&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/crawford/us-charities-and-nonprofits&#34;&gt;U.S. Charities and Non-profits&lt;/a&gt;: All of the charities and nonprofits registered with the IRS. This is actually split into six separate files. You can combine them all into one massive national database with &lt;code&gt;bind_rows()&lt;/code&gt;, or filter the data to include specific states (or a single state). It all depends on the story you’re telling. Source: IRS.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://data.world/causebot/grant-2010-to-2016&#34;&gt;Nonprofit Grants 2010 to 2016&lt;/a&gt;: Nonprofit grants made in the US as listed in Schedule I of the IRS 990 tax form between 2010 to 2016. Source: IRS.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;federal-state-and-local-government-management&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Federal, state, and local government management&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/kwullum/deadly-traffic-accidents-in-the-uk-2015&#34;&gt;Deadly traffic accidents in the UK (2015)&lt;/a&gt;: List of all traffic-related deaths in the UK in 2015. Source: &lt;a href=&#34;https://data.gov.uk/dataset/road-accidents-safety-data/resource/ceb00cff-443d-4d43-b17a-ee13437e9564&#34;&gt;data.gov.uk&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/fema/firefighter-fatalities&#34;&gt;Firefighter Fatalities in the United States&lt;/a&gt;: Name, rank, and cause of death for all firefighters killed since 2000. Source: FEMA.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/fema/federal-disasters&#34;&gt;Federal Emergencies and Disasters, 1953–Present&lt;/a&gt;: Every federal emergency or disaster declared by the President of the United States since 1953. Source: FEMA.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/START-UMD/gtd&#34;&gt;Global Terrorism Database (1970–2016)&lt;/a&gt;: 170,000 terrorist attacks worldwide, 1970-2016. Source: National Consortium for the Study of Terrorism and Responses to Terrorism (START), University of Maryland.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://data.world/cityofaustin/i26j-ai4z&#34;&gt;City of Austin 311 Unified Data&lt;/a&gt;: All 311 calls to the City of Austin since 2014. Source: City of Austin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;business-management&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Business management&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/jiashenliu/515k-hotel-reviews-data-in-europe&#34;&gt;515K Hotel Reviews Data in Europe&lt;/a&gt;: 515,000 customer reviews and scoring of 1,493 luxury hotels across Europe. Source: Booking.com.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/chasebank/bank-deposits&#34;&gt;Chase Bank Branch Deposits, 2010–2016&lt;/a&gt;: Records for every branch of Chase Bank in the United States. This dataset is not quite tidy and will require a little bit of reshaping with &lt;code&gt;gather()&lt;/code&gt; or &lt;code&gt;pivot_longer()&lt;/code&gt;, since there are individual columns of deposits per year. Source: Chase Bank.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;instructions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Instructions&lt;/h2&gt;
+&lt;p&gt;Here’s what you’ll need to do:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Download&lt;/strong&gt; a dataset and explore it. Many of these datasets are large and will not open (well) in Excel, so you’ll need to load the CSV file into R with &lt;code&gt;read_csv()&lt;/code&gt;. Most of these datasets have nice categorical variables that you can use for grouping and summarizing, and many have time components too, so you can look at trends. Your past problem sets and in-class examples will come in handy here.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Find&lt;/strong&gt; a story in the data. Explore that story and make sure it’s true and insightful.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use R to &lt;strong&gt;create&lt;/strong&gt; multiple graphs to tell the story. You can make as many graphs as you want, but you must use at least &lt;strong&gt;three&lt;/strong&gt; different chart types (i.e. don’t just make three scatterplots or three maps).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Export these figures as PDF files, place them in Adobe Illustrator (or InDesign or Gravit Designer or Inkscape), and &lt;strong&gt;make&lt;/strong&gt; one combined graphic or handout where you tell the complete story. You have a lot of latitude in how you do this. You can make a graphic-heavy one-page handout. You can make something along the lines of the &lt;a href=&#34;https://www.wired.co.uk/article/nuclear-power-reactors-global&#34;&gt;this&lt;/a&gt;, with one big graphic + smaller subgraphics + explanatory text. Just don’t make a &lt;a href=&#34;https://medium.com/@kazarnowicz/why-infographics-are-bad-3a2fa49673e2&#34;&gt;goofy infographic&lt;/a&gt;. Whatever you do, the final figure must include all the graphics, must have some explanatory text to help summarize the narrative, and must be well designed.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Export&lt;/strong&gt; the final graphic from Illustrator as a PDF and a PNG.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Write&lt;/strong&gt; a memo using R Markdown to introduce, frame, and describe your story and figure. &lt;a href=&#34;https://uvaDS8104.github.io/files/your_name_finalproject.Rmd&#34;&gt;Use this template to get started&lt;/a&gt;. You should include the following in the memo:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Executive summary&lt;/li&gt;
+&lt;li&gt;Background information and summary of the data&lt;/li&gt;
+&lt;li&gt;Explanation, description, and code for each individual figure&lt;/li&gt;
+&lt;li&gt;Explanation and description for the final figure&lt;/li&gt;
+&lt;li&gt;Final figure should be included as an image (remember &lt;code&gt;![Caption goes here](path/to/file.png)&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Remember to follow R Markdown etiquette rules and style—don’t have it output extraneous messages or warnings, include summary tables in nice tables, adjust the dimensions for your figures, and remove the placeholder text that’s in the template already (i.e. I don’t want to see stuff like “Describe and show how you cleaned and reshaped the data” in the final report.)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;You should &lt;a href=&#34;https://uvaDS8104.github.io/projects/example_final.zip&#34;&gt;download a full example of what a final project might look like&lt;/a&gt;&lt;/strong&gt; (but don’t make your final combined visualization look exactly like this—show some creativity!)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;final-deliverables&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Final deliverables&lt;/h2&gt;
+&lt;p&gt;Upload the following files to iCollege:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;A memo introducing and describing your final graphic (see full instructions above)&lt;/li&gt;
+&lt;li&gt;A standalone PDF of your graphic exported from Illustrator&lt;/li&gt;
+&lt;li&gt;A standalone PNG of your graphic exported from Illustrator&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;No late work will be accepted for this project since it’s the last project and it counts as your final.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I will use &lt;a href=&#34;https://uvaDS8104.github.io/files/final-project-rubric.xlsx&#34;&gt;this rubric&lt;/a&gt; to grade the final product:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://uvaDS8104.github.io/files/final-project-rubric.xlsx&#34;&gt;&lt;i class=&#34;fas fa-file-excel&#34;&gt;&lt;/i&gt; &lt;code&gt;final-project-rubric.xlsx&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I am happy to give feedback and help along the way—please don’t hesitate to get help! My goal is for you to have a beautiful graphic in the end that you’ll want to show off to all your friends, family, neighbors, employers, and strangers on the street—I’m not trying to trip you up or give you trick questions!&lt;/p&gt;
+&lt;p&gt;And that’s it. &lt;strong&gt;You’re done!&lt;/strong&gt; Go out into the world now and make beautiful, insightful, and truthful graphics.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://24ways.org/2010/go-forth-and-make-awesomeness/&#34;&gt;&lt;strong&gt;Go forth and make awesomeness.&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;past-examples&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Past examples&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://uvaDS8104.github.io/projects/example_final.zip&#34;&gt;Download a full example of what a final project might look like.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here are some great examples of student projects from past versions of this class.&lt;/p&gt;
+&lt;div id=&#34;travel-runs-in-yellowstone&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Travel runs in Yellowstone&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://uvaDS8104.github.io/files/past-projects/yellowstone-travel/final_memo.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Project description&lt;/a&gt; 
+&lt;a href=&#34;https://uvaDS8104.github.io/files/past-projects/yellowstone-travel/final.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Final PDF&lt;/a&gt; 
+&lt;a href=&#34;https://uvaDS8104.github.io/files/past-projects/yellowstone-travel/final.png&#34;&gt;&lt;i class=&#34;far fa-image&#34;&gt;&lt;/i&gt; Final PNG&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://uvaDS8104.github.io/files/past-projects/yellowstone-travel/final.pdf&#34;&gt;&lt;img src=&#34;https://uvaDS8104.github.io/files/past-projects/yellowstone-travel/final.png&#34; alt=&#34;Yellowstone travel final project&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;firefighter-fatalities&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Firefighter fatalities&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://uvaDS8104.github.io/files/past-projects/firefighters/final_memo.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Project description&lt;/a&gt; 
+&lt;a href=&#34;https://uvaDS8104.github.io/files/past-projects/firefighters/final.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Final PDF&lt;/a&gt; 
+&lt;a href=&#34;https://uvaDS8104.github.io/files/past-projects/firefighters/final.png&#34;&gt;&lt;i class=&#34;far fa-image&#34;&gt;&lt;/i&gt; Final PNG&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://uvaDS8104.github.io/files/past-projects/firefighters/final.pdf&#34;&gt;&lt;img src=&#34;https://uvaDS8104.github.io/files/past-projects/firefighters/final.png&#34; alt=&#34;Firefighter fatalities final project&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;scripture-use-by-the-killers&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Scripture use by &lt;em&gt;The Killers&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://uvaDS8104.github.io/files/past-projects/killers-scripture/final_memo.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Project description&lt;/a&gt; 
+&lt;a href=&#34;https://uvaDS8104.github.io/files/past-projects/killers-scripture/final.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Final PDF&lt;/a&gt; 
+&lt;a href=&#34;https://uvaDS8104.github.io/files/past-projects/killers-scripture/final.png&#34;&gt;&lt;i class=&#34;far fa-image&#34;&gt;&lt;/i&gt; Final PNG&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://uvaDS8104.github.io/files/past-projects/killers-scripture/final.pdf&#34;&gt;&lt;img src=&#34;https://uvaDS8104.github.io/files/past-projects/killers-scripture/final.png&#34; alt=&#34;Firefighter fatalities final project&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;utah-nonprofits&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Utah nonprofits&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://uvaDS8104.github.io/files/past-projects/utah-nonprofits/final_memo.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Project description&lt;/a&gt; 
+&lt;a href=&#34;https://uvaDS8104.github.io/files/past-projects/utah-nonprofits/final.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Final PDF&lt;/a&gt; 
+&lt;a href=&#34;https://uvaDS8104.github.io/files/past-projects/utah-nonprofits/final.png&#34;&gt;&lt;i class=&#34;far fa-image&#34;&gt;&lt;/i&gt; Final PNG&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://uvaDS8104.github.io/files/past-projects/utah-nonprofits/final.pdf&#34;&gt;&lt;img src=&#34;https://uvaDS8104.github.io/files/past-projects/utah-nonprofits/final.png&#34; alt=&#34;Firefighter fatalities final project&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;buckethead&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Buckethead&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://uvaDS8104.github.io/files/past-projects/buckethead/final_memo.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Project description&lt;/a&gt; 
+&lt;a href=&#34;https://uvaDS8104.github.io/files/past-projects/buckethead/final.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Final PDF&lt;/a&gt; 
+&lt;a href=&#34;https://uvaDS8104.github.io/files/past-projects/buckethead/final.png&#34;&gt;&lt;i class=&#34;far fa-image&#34;&gt;&lt;/i&gt; Final PNG&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://uvaDS8104.github.io/files/past-projects/buckethead/final.pdf&#34;&gt;&lt;img src=&#34;https://uvaDS8104.github.io/files/past-projects/buckethead/final.png&#34; alt=&#34;Firefighter fatalities final project&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
