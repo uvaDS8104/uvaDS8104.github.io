@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Readings, lectures, and videos | Network Science</title>
+    <title>Readings | Network Science</title>
     <link>https://uvaDS8104.github.io/content/</link>
       <atom:link href="https://uvaDS8104.github.io/content/index.xml" rel="self" type="application/rss+xml" />
-    <description>Readings, lectures, and videos</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <description>Readings</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Wed, 18 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://uvaDS8104.github.io/img/social-image.png</url>
-      <title>Readings, lectures, and videos</title>
+      <title>Readings</title>
       <link>https://uvaDS8104.github.io/content/</link>
     </image>
     
@@ -19,10 +19,26 @@
       <guid>https://uvaDS8104.github.io/content/01-content/</guid>
       <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-browser&#34;&gt;&lt;/i&gt; 
+&lt;a href=&#34;http://socviz.co/lookatdata.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Syllabus&lt;/a&gt; (hint: I&amp;rsquo;ll know if you finish.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;fa-solid fa-square&#34;&gt;&lt;/i&gt; 
+&lt;a href=&#34;https://uvaDS8104.github.io/static/slides/class1_ds8104_whynetworks.pdf&#34;&gt;Why Networks?&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Graph Theory 101: First Connections</title>
+      <link>https://uvaDS8104.github.io/content/02-content/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uvaDS8104.github.io/content/02-content/</guid>
+      <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
+&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book&#34;&gt;&lt;/i&gt; 
-&lt;a href=&#34;http://socviz.co/lookatdata.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chapters 1 &amp;amp; 2&lt;/a&gt; in Easley &amp;amp; Kleinberg, &lt;em&gt;Networks, crowds, and markets: Reasoning about a highly connected world&lt;/em&gt;   
-&lt;a href=&#34;https://www.cs.cornell.edu/home/kleinber/networks-book/networks-book.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The full book is here, too.&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://socviz.co/lookatdata.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chapters 1 &amp;amp; 2&lt;/a&gt; in Easley &amp;amp; Kleinberg, &lt;em&gt;Networks, crowds, and markets: Reasoning about a highly connected world&lt;/em&gt;.   
+&lt;a href=&#34;https://www.cs.cornell.edu/home/kleinber/networks-book/networks-book.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The full book is also here.&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Butts, Carter T. (2009) 
@@ -30,7 +46,8 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
-&lt;p&gt;The slides for today&amp;rsquo;s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;
+&lt;i class=&#34;fas fa-projector&#34;&gt;&lt;/i&gt;&lt;/p&gt;
 </description>
     </item>
     
