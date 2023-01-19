@@ -5,28 +5,12 @@
     <link>https://uvaDS8104.github.io/content/</link>
       <atom:link href="https://uvaDS8104.github.io/content/index.xml" rel="self" type="application/rss+xml" />
     <description>Readings</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Wed, 18 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <image>
       <url>https://uvaDS8104.github.io/img/social-image.png</url>
       <title>Readings</title>
       <link>https://uvaDS8104.github.io/content/</link>
     </image>
-    
-    <item>
-      <title>Why study networks?</title>
-      <link>https://uvaDS8104.github.io/content/01-content/</link>
-      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://uvaDS8104.github.io/content/01-content/</guid>
-      <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;fas fa-browser&#34;&gt;&lt;/i&gt; 
-&lt;a href=&#34;http://socviz.co/lookatdata.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Syllabus&lt;/a&gt; (hint: I&amp;rsquo;ll know if you finish.)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
-&lt;p&gt;&lt;i class=&#34;fa-solid fa-square&#34;&gt;&lt;/i&gt; 
-&lt;a href=&#34;https://uvaDS8104.github.io/static/slides/class1_ds8104_whynetworks.pdf&#34;&gt;Why Networks?&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Graph Theory 101: First Connections</title>
@@ -37,7 +21,7 @@
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book&#34;&gt;&lt;/i&gt; 
-&lt;a href=&#34;http://socviz.co/lookatdata.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chapters 1 &amp;amp; 2&lt;/a&gt; in Easley &amp;amp; Kleinberg, &lt;em&gt;Networks, crowds, and markets: Reasoning about a highly connected world&lt;/em&gt;.   
+&lt;a href=&#34;readings/week2/easley_kleinberg_networksbook_chaps_1_2.pdf&#34;&gt;Chapters 1 &amp;amp; 2&lt;/a&gt; in Easley &amp;amp; Kleinberg, &lt;em&gt;Networks, crowds, and markets: Reasoning about a highly connected world&lt;/em&gt;.   
 &lt;a href=&#34;https://www.cs.cornell.edu/home/kleinber/networks-book/networks-book.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The full book is also here.&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -46,8 +30,23 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;
-&lt;i class=&#34;fas fa-projector&#34;&gt;&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why study networks?</title>
+      <link>https://uvaDS8104.github.io/content/01-content/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uvaDS8104.github.io/content/01-content/</guid>
+      <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; 
+&lt;a href=&#34;https://uvads8104.github.io/syllabus/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Syllabus&lt;/a&gt; (hint: I&amp;rsquo;ll know if you finish.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;fa-solid fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; 
+&lt;a href=&#34;https://uvaDS8104.github.io/slides/ds8104_class1_whynetworks.pdf&#34;&gt;Why Networks?&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

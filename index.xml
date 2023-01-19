@@ -110,22 +110,6 @@
     </item>
     
     <item>
-      <title>Why study networks?</title>
-      <link>https://uvaDS8104.github.io/content/01-content/</link>
-      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://uvaDS8104.github.io/content/01-content/</guid>
-      <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;fas fa-browser&#34;&gt;&lt;/i&gt; 
-&lt;a href=&#34;http://socviz.co/lookatdata.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Syllabus&lt;/a&gt; (hint: I&amp;rsquo;ll know if you finish.)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
-&lt;p&gt;&lt;i class=&#34;fa-solid fa-square&#34;&gt;&lt;/i&gt; 
-&lt;a href=&#34;https://uvaDS8104.github.io/static/slides/class1_ds8104_whynetworks.pdf&#34;&gt;Why Networks?&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Graph Theory 101: First Connections</title>
       <link>https://uvaDS8104.github.io/content/02-content/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
@@ -134,7 +118,7 @@
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book&#34;&gt;&lt;/i&gt; 
-&lt;a href=&#34;http://socviz.co/lookatdata.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chapters 1 &amp;amp; 2&lt;/a&gt; in Easley &amp;amp; Kleinberg, &lt;em&gt;Networks, crowds, and markets: Reasoning about a highly connected world&lt;/em&gt;.   
+&lt;a href=&#34;readings/week2/easley_kleinberg_networksbook_chaps_1_2.pdf&#34;&gt;Chapters 1 &amp;amp; 2&lt;/a&gt; in Easley &amp;amp; Kleinberg, &lt;em&gt;Networks, crowds, and markets: Reasoning about a highly connected world&lt;/em&gt;.   
 &lt;a href=&#34;https://www.cs.cornell.edu/home/kleinber/networks-book/networks-book.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The full book is also here.&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -143,8 +127,23 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;
-&lt;i class=&#34;fas fa-projector&#34;&gt;&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why study networks?</title>
+      <link>https://uvaDS8104.github.io/content/01-content/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uvaDS8104.github.io/content/01-content/</guid>
+      <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; 
+&lt;a href=&#34;https://uvads8104.github.io/syllabus/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Syllabus&lt;/a&gt; (hint: I&amp;rsquo;ll know if you finish.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;fa-solid fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; 
+&lt;a href=&#34;https://uvaDS8104.github.io/slides/ds8104_class1_whynetworks.pdf&#34;&gt;Why Networks?&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -168,13 +167,12 @@
         &lt;tr&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Jan 19&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Why Networks?&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
+                    href=&#34;https://uvaDS8104.github.io/slides/ds8104_class1_whynetworks.pdf&#34;&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -190,11 +188,11 @@
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Graph Theory 101: First Connections&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -210,11 +208,11 @@
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Graph Theory 201: Broken Pieces&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -239,11 +237,11 @@
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -259,11 +257,11 @@
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -279,11 +277,11 @@
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -299,11 +297,11 @@
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -319,11 +317,11 @@
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -339,11 +337,11 @@
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -359,11 +357,11 @@
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -379,11 +377,11 @@
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -399,11 +397,11 @@
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -419,11 +417,11 @@
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -448,11 +446,11 @@
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -468,11 +466,11 @@
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -488,11 +486,11 @@
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -508,11 +506,11 @@
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -537,11 +535,11 @@
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -557,11 +555,11 @@
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -577,11 +575,11 @@
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -597,11 +595,11 @@
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -617,11 +615,11 @@
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -637,11 +635,11 @@
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -657,11 +655,11 @@
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -677,11 +675,11 @@
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -706,11 +704,11 @@
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -726,11 +724,11 @@
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -746,11 +744,11 @@
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;i class=&#34;fas fa-star&#34;&gt;&lt;/i&gt; &lt;strong&gt;Final project due&lt;/strong&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-square fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -818,9 +816,13 @@
 &lt;h2 id=&#34;course-materials&#34;&gt;Course materials&lt;/h2&gt;
 &lt;p&gt;All required readings and resources are available on the course website.&lt;/p&gt;
 &lt;h3 id=&#34;articles-and-other-materials&#34;&gt;Articles, and other materials&lt;/h3&gt;
-&lt;p&gt;In this course, we will be reading scientific articles.  
-&lt;a href=&#34;https://www.science.org/content/article/how-seriously-read-scientific-paper&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How to seriously read a scientific paper&lt;/a&gt;.  
-&lt;a href=&#34;https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008032&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ten simple rules for reading a scientific paper&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In this course, we will be reading scientific articles.  Two great commentaries to get you in the mindset for digesting scientific articles are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.science.org/content/article/how-seriously-read-scientific-paper&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How to seriously read a scientific paper&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008032&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ten simple rules for reading a scientific paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3 id=&#34;textbooks&#34;&gt;Textbooks&lt;/h3&gt;
 &lt;p&gt;There are several fantastic treatments of Network Science.  None of these are required readings, but they have all greatly influenced the way I think about networks.&lt;/p&gt;
 &lt;ul&gt;
