@@ -13,6 +13,22 @@
     </image>
     
     <item>
+      <title>Why study networks?</title>
+      <link>https://uvaDS8104.github.io/content/01-content/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uvaDS8104.github.io/content/01-content/</guid>
+      <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; 
+&lt;a href=&#34;https://uvads8104.github.io/syllabus/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Syllabus&lt;/a&gt; (hint: I&amp;rsquo;ll know if you finish.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;fa-solid fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; 
+&lt;a href=&#34;https://uvaDS8104.github.io/slides/ds8104_class1_whynetworks.pdf&#34;&gt;Why Networks?&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Graph Theory 101: First Connections</title>
       <link>https://uvaDS8104.github.io/content/02-content/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
@@ -35,18 +51,62 @@
     </item>
     
     <item>
-      <title>Why study networks?</title>
-      <link>https://uvaDS8104.github.io/content/01-content/</link>
+      <title>Random Connections</title>
+      <link>https://uvaDS8104.github.io/content/03-content/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://uvaDS8104.github.io/content/01-content/</guid>
+      <guid>https://uvaDS8104.github.io/content/03-content/</guid>
       <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; 
-&lt;a href=&#34;https://uvads8104.github.io/syllabus/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Syllabus&lt;/a&gt; (hint: I&amp;rsquo;ll know if you finish.)&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  Milgram, Stanley. (1967) &amp;ldquo;
+&lt;a href=&#34;http://snap.stanford.edu/class/cs224w-readings/milgram67smallworld.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The small world problem&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Psychology today&lt;/em&gt; &lt;strong&gt;2&lt;/strong&gt;, no. 1: 60-67.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  Watts, Duncan J., and Steven H. Strogatz. (1998) &amp;ldquo;
+&lt;a href=&#34;https://www.nature.com/articles/30918&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Collective dynamics of ‘small world’ networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Nature&lt;/em&gt; &lt;strong&gt;393&lt;/strong&gt;, 6684: 440-442.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Fosdick, Bailey K., Daniel B. Larremore, Joel Nishimura, and Johan Ugander. (2018) &amp;ldquo;
+&lt;a href=&#34;https://epubs.siam.org/doi/pdf/10.1137/16M1087175&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Configuring random graph models with fixed degree sequences&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Siam Review&lt;/em&gt; &lt;strong&gt;60&lt;/strong&gt;, no. 2: 315-355.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Milo, Ron, Shai Shen-Orr, Shalev Itzkovitz, Nadav Kashtan, Dmitri Chklovskii, and Uri Alon. (2002) &amp;ldquo;
+&lt;a href=&#34;https://www.science.org/doi/10.1126/science.298.5594.824&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Network motifs: simple building blocks of complex networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Science&lt;/em&gt; &lt;strong&gt;298&lt;/strong&gt;, no. 5594: 824-827.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
-&lt;p&gt;&lt;i class=&#34;fa-solid fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; 
-&lt;a href=&#34;https://uvaDS8104.github.io/slides/ds8104_class1_whynetworks.pdf&#34;&gt;Why Networks?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Network Power</title>
+      <link>https://uvaDS8104.github.io/content/04-content/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://uvaDS8104.github.io/content/04-content/</guid>
+      <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Newman, Mark EJ. (2005) &amp;ldquo;
+&lt;a href=&#34;https://arxiv.org/abs/cond-mat/0412004&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Power laws, Pareto distributions and Zipf&amp;rsquo;s law&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Contemporary physics&lt;/em&gt; &lt;strong&gt;46&lt;/strong&gt;, 5: 323-351.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  Barabasi, Albert-Laszlo, and Reka Albert. (1999) &amp;ldquo;
+&lt;a href=&#34;https://www.science.org/doi/10.1126/science.286.5439.509&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Emergence of scaling in random networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Science&lt;/em&gt; &lt;strong&gt;286&lt;/strong&gt;, 5439: 509-512.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Albert, Réka, Hawoong Jeong, and Albert-László Barabási. (2000) &amp;ldquo;
+&lt;a href=&#34;https://www.nature.com/articles/35019019&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Error and attack tolerance of complex networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Nature&lt;/em&gt; &lt;strong&gt;406&lt;/strong&gt;, no. 6794: 378-382.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Clauset, Aaron, Cosma Rohilla Shalizi, and Mark EJ Newman. (2009) &amp;ldquo;Power-law distributions in empirical data.&amp;rdquo; &lt;em&gt;SIAM review&lt;/em&gt; &lt;strong&gt;51&lt;/strong&gt;, no. 4: 661-703.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  Broido, Anna D., and Aaron Clauset. &amp;ldquo;Scale-free networks are rare.&amp;rdquo; (2019) &lt;em&gt;Nature communications&lt;/em&gt; &lt;strong&gt;10&lt;/strong&gt;, no. 1: 1-10.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/p&gt;
 </description>
     </item>
     
