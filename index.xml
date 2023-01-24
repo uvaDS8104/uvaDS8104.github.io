@@ -133,12 +133,12 @@
       <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-book&#34;&gt;&lt;/i&gt; 
-&lt;a href=&#34;readings/week2/easley_kleinberg_networksbook_chaps_1_2.pdf&#34;&gt;Chapters 1 &amp;amp; 2&lt;/a&gt; in Easley &amp;amp; Kleinberg, &lt;em&gt;Networks, crowds, and markets: Reasoning about a highly connected world&lt;/em&gt;.   
+&lt;p&gt;&lt;i class=&#34;fas fa-book&#34;&gt;&lt;/i&gt; (&lt;strong&gt;all&lt;/strong&gt;) 
+&lt;a href=&#34;https://uvaDS8104.github.io/readings/week2/easley_kleinberg_networksbook_chaps_1_2.pdf&#34;&gt;Chapters 1 &amp;amp; 2&lt;/a&gt; in Easley &amp;amp; Kleinberg, &lt;em&gt;Networks, crowds, and markets: Reasoning about a highly connected world&lt;/em&gt;.   
 &lt;a href=&#34;https://www.cs.cornell.edu/home/kleinber/networks-book/networks-book.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The full book is also here.&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Butts, Carter T. (2009) 
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; (&lt;strong&gt;all&lt;/strong&gt;) Butts, Carter T. (2009) 
 &lt;a href=&#34;https://www.science.org/doi/10.1126/science.1171022&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Revisiting the foundations of network analysis.&amp;rdquo;&lt;/a&gt; &lt;em&gt;Science&lt;/em&gt; &lt;strong&gt;325&lt;/strong&gt;, no. 5939: 414-416.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -156,19 +156,19 @@
       <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  Milgram, Stanley. (1967) &amp;ldquo;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  (&lt;strong&gt;all&lt;/strong&gt;) Milgram, Stanley. (1967) &amp;ldquo;
 &lt;a href=&#34;http://snap.stanford.edu/class/cs224w-readings/milgram67smallworld.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The small world problem&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Psychology today&lt;/em&gt; &lt;strong&gt;2&lt;/strong&gt;, no. 1: 60-67.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  Watts, Duncan J., and Steven H. Strogatz. (1998) &amp;ldquo;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  (&lt;strong&gt;Jason&lt;/strong&gt;) Watts, Duncan J., and Steven H. Strogatz. (1998) &amp;ldquo;
 &lt;a href=&#34;https://www.nature.com/articles/30918&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Collective dynamics of ‘small world’ networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Nature&lt;/em&gt; &lt;strong&gt;393&lt;/strong&gt;, 6684: 440-442.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Fosdick, Bailey K., Daniel B. Larremore, Joel Nishimura, and Johan Ugander. (2018) &amp;ldquo;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; (&lt;strong&gt;Navya&lt;/strong&gt;) Fosdick, Bailey K., Daniel B. Larremore, Joel Nishimura, and Johan Ugander. (2018) &amp;ldquo;
 &lt;a href=&#34;https://epubs.siam.org/doi/pdf/10.1137/16M1087175&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Configuring random graph models with fixed degree sequences&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Siam Review&lt;/em&gt; &lt;strong&gt;60&lt;/strong&gt;, no. 2: 315-355.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Milo, Ron, Shai Shen-Orr, Shalev Itzkovitz, Nadav Kashtan, Dmitri Chklovskii, and Uri Alon. (2002) &amp;ldquo;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  (&lt;strong&gt;Joseph&lt;/strong&gt;) Milo, Ron, Shai Shen-Orr, Shalev Itzkovitz, Nadav Kashtan, Dmitri Chklovskii, and Uri Alon. (2002) &amp;ldquo;
 &lt;a href=&#34;https://www.science.org/doi/10.1126/science.298.5594.824&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Network motifs: simple building blocks of complex networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Science&lt;/em&gt; &lt;strong&gt;298&lt;/strong&gt;, no. 5594: 824-827.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
