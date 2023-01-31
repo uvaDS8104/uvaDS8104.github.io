@@ -36,12 +36,12 @@
       <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-book&#34;&gt;&lt;/i&gt; (&lt;strong&gt;all&lt;/strong&gt;) 
+&lt;p&gt;&lt;i class=&#34;fas fa-book&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(all)&lt;/span&gt;&lt;/strong&gt; 
 &lt;a href=&#34;https://uvaDS8104.github.io/readings/week2/easley_kleinberg_networksbook_chaps_1_2.pdf&#34;&gt;Chapters 1 &amp;amp; 2&lt;/a&gt; in Easley &amp;amp; Kleinberg, &lt;em&gt;Networks, crowds, and markets: Reasoning about a highly connected world&lt;/em&gt;.   
 &lt;a href=&#34;https://www.cs.cornell.edu/home/kleinber/networks-book/networks-book.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The full book is also here.&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; (&lt;strong&gt;all&lt;/strong&gt;) Butts, Carter T. (2009) 
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(all)&lt;/span&gt;&lt;/strong&gt; Butts, Carter T. (2009) 
 &lt;a href=&#34;https://www.science.org/doi/10.1126/science.1171022&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Revisiting the foundations of network analysis.&amp;rdquo;&lt;/a&gt; &lt;em&gt;Science&lt;/em&gt; &lt;strong&gt;325&lt;/strong&gt;, no. 5939: 414-416.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -61,19 +61,19 @@
       <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  (&lt;strong&gt;all&lt;/strong&gt;) Milgram, Stanley. (1967) &amp;ldquo;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(all)&lt;/span&gt;&lt;/strong&gt; Milgram, Stanley. (1967) &amp;ldquo;
 &lt;a href=&#34;http://snap.stanford.edu/class/cs224w-readings/milgram67smallworld.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The small world problem&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Psychology today&lt;/em&gt; &lt;strong&gt;2&lt;/strong&gt;, no. 1: 60-67.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  (&lt;strong&gt;Jason&lt;/strong&gt;) Watts, Duncan J., and Steven H. Strogatz. (1998) &amp;ldquo;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(Jason)&lt;/span&gt;&lt;/strong&gt; Watts, Duncan J., and Steven H. Strogatz. (1998) &amp;ldquo;
 &lt;a href=&#34;https://www.nature.com/articles/30918&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Collective dynamics of ‘small world’ networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Nature&lt;/em&gt; &lt;strong&gt;393&lt;/strong&gt;, 6684: 440-442.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  (&lt;strong&gt;Joseph&lt;/strong&gt;) Milo, Ron, Shai Shen-Orr, Shalev Itzkovitz, Nadav Kashtan, Dmitri Chklovskii, and Uri Alon. (2002) &amp;ldquo;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(Joseph)&lt;/span&gt;&lt;/strong&gt; Milo, Ron, Shai Shen-Orr, Shalev Itzkovitz, Nadav Kashtan, Dmitri Chklovskii, and Uri Alon. (2002) &amp;ldquo;
 &lt;a href=&#34;https://www.science.org/doi/10.1126/science.298.5594.824&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Network motifs: simple building blocks of complex networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Science&lt;/em&gt; &lt;strong&gt;298&lt;/strong&gt;, no. 5594: 824-827.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; (&lt;strong&gt;Navya&lt;/strong&gt;) Fosdick, Bailey K., Daniel B. Larremore, Joel Nishimura, and Johan Ugander. (2018) &amp;ldquo;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(Navya)&lt;/span&gt;&lt;/strong&gt; Fosdick, Bailey K., Daniel B. Larremore, Joel Nishimura, and Johan Ugander. (2018) &amp;ldquo;
 &lt;a href=&#34;https://epubs.siam.org/doi/pdf/10.1137/16M1087175&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Configuring random graph models with fixed degree sequences&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Siam Review&lt;/em&gt; &lt;strong&gt;60&lt;/strong&gt;, no. 2: 315-355.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -99,14 +99,14 @@
 &lt;a href=&#34;https://www.science.org/doi/10.1126/science.286.5439.509&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Emergence of scaling in random networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Science&lt;/em&gt; &lt;strong&gt;286&lt;/strong&gt;, 5439: 509-512.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; (&lt;strong&gt;all&lt;/strong&gt;) Albert, Réka, Hawoong Jeong, and Albert-László Barabási. (2000) &amp;ldquo;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(all)&lt;/span&gt;&lt;/strong&gt; Albert, Réka, Hawoong Jeong, and Albert-László Barabási. (2000) &amp;ldquo;
 &lt;a href=&#34;https://www.nature.com/articles/35019019&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Error and attack tolerance of complex networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Nature&lt;/em&gt; &lt;strong&gt;406&lt;/strong&gt;, no. 6794: 378-382.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Clauset, Aaron, Cosma Rohilla Shalizi, and Mark EJ Newman. (2009) &amp;ldquo;Power-law distributions in empirical data.&amp;rdquo; &lt;em&gt;SIAM review&lt;/em&gt; &lt;strong&gt;51&lt;/strong&gt;, no. 4: 661-703.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; (&lt;strong&gt;all&lt;/strong&gt;) Broido, Anna D., and Aaron Clauset. &amp;ldquo;Scale-free networks are rare.&amp;rdquo; (2019) &lt;em&gt;Nature communications&lt;/em&gt; &lt;strong&gt;10&lt;/strong&gt;, no. 1: 1-10.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(all)&lt;/span&gt;&lt;/strong&gt; Broido, Anna D., and Aaron Clauset. &amp;ldquo;Scale-free networks are rare.&amp;rdquo; (2019) &lt;em&gt;Nature communications&lt;/em&gt; &lt;strong&gt;10&lt;/strong&gt;, no. 1: 1-10.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
