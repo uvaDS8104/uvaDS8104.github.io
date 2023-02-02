@@ -80,6 +80,8 @@
 &lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; 
 &lt;a href=&#34;https://uvaDS8104.github.io/slides/ds8104_class4_randomgraphs.pdf&#34;&gt;Random Graphs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; 
+&lt;a href=&#34;https://uvaDS8104.github.io/slides/ds8104_class5_configuration.pdf&#34;&gt;Configuration Models&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -130,8 +132,8 @@
 &lt;a href=&#34;https://dl.acm.org/doi/10.1145/1526709.1526781&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;To Join or Not to Join: The Illusion of Privacy in Social Networks with Mixed Public and Private User Profiles&lt;/a&gt;.” &lt;em&gt;Proc. 18th Internat. Conf. World Wide Web (WWW)&lt;/em&gt;, 531–540&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; (&lt;strong&gt;all&lt;/strong&gt;)  Newman, Mark EJ. (2003) &amp;ldquo;
-&lt;a href=&#34;https://journals.aps.org/pre/pdf/10.1103/PhysRevE.67.026126&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mixing patterns in networks&lt;/a&gt;*.&amp;rdquo; &lt;em&gt;Physical review E&lt;/em&gt; &lt;strong&gt;67&lt;/strong&gt;, no. 2: 026126.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(all)&lt;/span&gt;&lt;/strong&gt;  Newman, Mark EJ. (2003) &amp;ldquo;
+&lt;a href=&#34;https://journals.aps.org/pre/pdf/10.1103/PhysRevE.67.026126&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mixing patterns in networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Physical review E&lt;/em&gt; &lt;strong&gt;67&lt;/strong&gt;, no. 2: 026126.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Peel, Leto, Jean-Charles Delvenne, and Renaud Lambiotte. (2018) &amp;ldquo;
@@ -144,13 +146,28 @@
     </item>
     
     <item>
-      <title>Centrality</title>
+      <title>Centrality &amp; Importance</title>
       <link>https://uvaDS8104.github.io/content/06-content/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://uvaDS8104.github.io/content/06-content/</guid>
       <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Fraiberger, Samuel P., Roberta Sinatra, Magnus Resch, Christoph Riedl, and Albert-László Barabási. &amp;ldquo;Quantifying reputation and success in art.&amp;rdquo; Science 362, no. 6416 (2018): 825-829.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Ulrik Brandes (2001) &amp;ldquo;
+&lt;a href=&#34;https://www.tandfonline.com/doi/pdf/10.1080/0022250X.2001.9990249&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A faster algorithm for betweenness centrality&lt;/a&gt;&amp;rdquo; &lt;em&gt;Journal of Mathematical Sociology&lt;/em&gt; &lt;strong&gt;25&lt;/strong&gt;, 2:163-177&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Harriger, Logan, Martijn P. Van Den Heuvel, and Olaf Sporns (2012) &amp;ldquo;
+&lt;a href=&#34;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0046497&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rich club organization of macaque cerebral cortex and its role in network communication&lt;/a&gt;&amp;rdquo; e46497.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Sebastiano Vigna (2016) &amp;ldquo;
+&lt;a href=&#34;https://www.cambridge.org/core/services/aop-cambridge-core/content/view/99ACDCD0CC1B774AB0041FB16AB43D1B/S2050124216000217a.pdf/spectral_ranking.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spectral ranking&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Network Science&lt;/em&gt; &lt;strong&gt;4&lt;/strong&gt;, 4: 433-445&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(all)&lt;/span&gt;&lt;/strong&gt; Fraiberger, Samuel P., Roberta Sinatra, Magnus Resch, Christoph Riedl, and Albert-László Barabási (2018) &amp;ldquo;
+&lt;a href=&#34;https://www.science.org/doi/10.1126/science.aau7224&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quantifying reputation and success in art&lt;/a&gt;&amp;rdquo; &lt;em&gt;Science&lt;/em&gt; &lt;strong&gt;362&lt;/strong&gt;, no. 6416: 825-829&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/p&gt;
