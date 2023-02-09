@@ -13,6 +13,93 @@
     </image>
     
     <item>
+      <title>Homophily &amp; Assortativity</title>
+      <link>https://uvaDS8104.github.io/content/05-content/</link>
+      <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://uvaDS8104.github.io/content/05-content/</guid>
+      <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; McPherson, Miller, Lynn Smith-Lovin, and James M. Cook.  (2001) &amp;ldquo;
+&lt;a href=&#34;https://www.annualreviews.org/doi/abs/10.1146/annurev.soc.27.1.415&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Birds of a feather: Homophily in social networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Annual review of sociology&lt;/em&gt; &lt;strong&gt;27&lt;/strong&gt;: 415-444.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Zheleva &amp;amp; Getoor (2009) “
+&lt;a href=&#34;https://dl.acm.org/doi/10.1145/1526709.1526781&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;To Join or Not to Join: The Illusion of Privacy in Social Networks with Mixed Public and Private User Profiles&lt;/a&gt;.” &lt;em&gt;Proc. 18th Internat. Conf. World Wide Web (WWW)&lt;/em&gt;, 531–540&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(all)&lt;/span&gt;&lt;/strong&gt;  Newman, Mark EJ. (2003) &amp;ldquo;
+&lt;a href=&#34;https://journals.aps.org/pre/pdf/10.1103/PhysRevE.67.026126&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mixing patterns in networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Physical review E&lt;/em&gt; &lt;strong&gt;67&lt;/strong&gt;, no. 2: 026126.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Peel, Leto, Jean-Charles Delvenne, and Renaud Lambiotte. (2018) &amp;ldquo;
+&lt;a href=&#34;https://www.pnas.org/doi/10.1073/pnas.1713019115&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Multiscale mixing patterns in networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Proceedings of the National Academy of Sciences&lt;/em&gt; &lt;strong&gt;115&lt;/strong&gt;, no. 16: 4057-4062.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Centrality &amp; Importance</title>
+      <link>https://uvaDS8104.github.io/content/06-content/</link>
+      <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://uvaDS8104.github.io/content/06-content/</guid>
+      <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Ulrik Brandes (2001) &amp;ldquo;
+&lt;a href=&#34;https://www.tandfonline.com/doi/pdf/10.1080/0022250X.2001.9990249&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A faster algorithm for betweenness centrality&lt;/a&gt;&amp;rdquo; &lt;em&gt;Journal of Mathematical Sociology&lt;/em&gt; &lt;strong&gt;25&lt;/strong&gt;, 2:163-177&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Harriger, Logan, Martijn P. Van Den Heuvel, and Olaf Sporns (2012) &amp;ldquo;
+&lt;a href=&#34;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0046497&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rich club organization of macaque cerebral cortex and its role in network communication&lt;/a&gt;&amp;rdquo; e46497.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Sebastiano Vigna (2016) &amp;ldquo;
+&lt;a href=&#34;https://www.cambridge.org/core/services/aop-cambridge-core/content/view/99ACDCD0CC1B774AB0041FB16AB43D1B/S2050124216000217a.pdf/spectral_ranking.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spectral ranking&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Network Science&lt;/em&gt; &lt;strong&gt;4&lt;/strong&gt;, 4: 433-445&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(all)&lt;/span&gt;&lt;/strong&gt; Fraiberger, Samuel P., Roberta Sinatra, Magnus Resch, Christoph Riedl, and Albert-László Barabási (2018) &amp;ldquo;
+&lt;a href=&#34;https://www.science.org/doi/10.1126/science.aau7224&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quantifying reputation and success in art&lt;/a&gt;&amp;rdquo; &lt;em&gt;Science&lt;/em&gt; &lt;strong&gt;362&lt;/strong&gt;, no. 6416: 825-829&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sampling and Paradox</title>
+      <link>https://uvaDS8104.github.io/content/07-content/</link>
+      <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://uvaDS8104.github.io/content/07-content/</guid>
+      <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  Maiya and Berger-Wolf (2011) “
+&lt;a href=&#34;https://dl.acm.org/doi/10.1145/2020408.2020431&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benefits of Bias: Towards Better Characterization of Network Sampling&lt;/a&gt;.” &lt;em&gt;Proc. KDD ’11&lt;/em&gt;, 105–113&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  Ahmed, Nesreen K., Jennifer Neville, and Ramana Kompella. (2013) &amp;ldquo;
+&lt;a href=&#34;https://dl.acm.org/doi/10.1145/2601438&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Network sampling: From static to streaming graphs&lt;/a&gt;.&amp;rdquo; &lt;em&gt;ACM Transactions on Knowledge Discovery from Data (TKDD)&lt;/em&gt; &lt;strong&gt;8&lt;/strong&gt;, no. 2: 1-56.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Feld, Scott L. (1991) &amp;ldquo;
+&lt;a href=&#34;https://www.jstor.org/stable/2781907#metadata_info_tab_contents&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Why your friends have more friends than you do&lt;/a&gt;&amp;rdquo;, &lt;em&gt;American Journal of Sociology&lt;/em&gt;, &lt;strong&gt;96&lt;/strong&gt; (6): 1464–1477, doi:10.1086/229693&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Pal, Siddharth, Feng Yu, Yitzchak Novick, Ananthram Swami, and Amotz Bar-Noy. (2019) &amp;ldquo;
+&lt;a href=&#34;https://appliednetsci.springeropen.com/articles/10.1007/s41109-019-0190-8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A study on the friendship paradox–quantitative analysis and relationship with assortative mixing&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Applied Network Science&lt;/em&gt; &lt;strong&gt;4&lt;/strong&gt;, no. 1 : 1-26.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Why study networks?</title>
       <link>https://uvaDS8104.github.io/content/01-content/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
@@ -105,97 +192,16 @@
 &lt;a href=&#34;https://www.nature.com/articles/35019019&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Error and attack tolerance of complex networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Nature&lt;/em&gt; &lt;strong&gt;406&lt;/strong&gt;, no. 6794: 378-382.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(Weili)&lt;/span&gt;&lt;/strong&gt; Clauset, Aaron, Cosma Rohilla Shalizi, and Mark EJ Newman. (2009) &amp;ldquo;Power-law distributions in empirical data.&amp;rdquo; &lt;em&gt;SIAM review&lt;/em&gt; &lt;strong&gt;51&lt;/strong&gt;, no. 4: 661-703.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(Weili)&lt;/span&gt;&lt;/strong&gt; Clauset, Aaron, Cosma Rohilla Shalizi, and Mark EJ Newman. (2009) &amp;ldquo;
+&lt;a href=&#34;https://arxiv.org/abs/0706.1062&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Power-law distributions in empirical data&lt;/a&gt;.&amp;rdquo; &lt;em&gt;SIAM review&lt;/em&gt; &lt;strong&gt;51&lt;/strong&gt;, no. 4: 661-703.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(all)&lt;/span&gt;&lt;/strong&gt; Broido, Anna D., and Aaron Clauset. &amp;ldquo;Scale-free networks are rare.&amp;rdquo; (2019) &lt;em&gt;Nature communications&lt;/em&gt; &lt;strong&gt;10&lt;/strong&gt;, no. 1: 1-10.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Homophily &amp; Assortativity</title>
-      <link>https://uvaDS8104.github.io/content/05-content/</link>
-      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://uvaDS8104.github.io/content/05-content/</guid>
-      <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; McPherson, Miller, Lynn Smith-Lovin, and James M. Cook.  (2001) &amp;ldquo;
-&lt;a href=&#34;https://www.annualreviews.org/doi/abs/10.1146/annurev.soc.27.1.415&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Birds of a feather: Homophily in social networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Annual review of sociology&lt;/em&gt; &lt;strong&gt;27&lt;/strong&gt;: 415-444.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(all)&lt;/span&gt;&lt;/strong&gt; Broido, Anna D., and Aaron Clauset. &amp;ldquo;
+&lt;a href=&#34;https://www.nature.com/articles/s41467-019-08746-5&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Scale-free networks are rare&lt;/a&gt;.&amp;rdquo; (2019) &lt;em&gt;Nature communications&lt;/em&gt; &lt;strong&gt;10&lt;/strong&gt;, no. 1: 1-10.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Zheleva &amp;amp; Getoor (2009) “
-&lt;a href=&#34;https://dl.acm.org/doi/10.1145/1526709.1526781&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;To Join or Not to Join: The Illusion of Privacy in Social Networks with Mixed Public and Private User Profiles&lt;/a&gt;.” &lt;em&gt;Proc. 18th Internat. Conf. World Wide Web (WWW)&lt;/em&gt;, 531–540&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(all)&lt;/span&gt;&lt;/strong&gt;  Newman, Mark EJ. (2003) &amp;ldquo;
-&lt;a href=&#34;https://journals.aps.org/pre/pdf/10.1103/PhysRevE.67.026126&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mixing patterns in networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Physical review E&lt;/em&gt; &lt;strong&gt;67&lt;/strong&gt;, no. 2: 026126.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Peel, Leto, Jean-Charles Delvenne, and Renaud Lambiotte. (2018) &amp;ldquo;
-&lt;a href=&#34;https://www.pnas.org/doi/10.1073/pnas.1713019115&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Multiscale mixing patterns in networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Proceedings of the National Academy of Sciences&lt;/em&gt; &lt;strong&gt;115&lt;/strong&gt;, no. 16: 4057-4062.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Centrality &amp; Importance</title>
-      <link>https://uvaDS8104.github.io/content/06-content/</link>
-      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://uvaDS8104.github.io/content/06-content/</guid>
-      <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Ulrik Brandes (2001) &amp;ldquo;
-&lt;a href=&#34;https://www.tandfonline.com/doi/pdf/10.1080/0022250X.2001.9990249&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A faster algorithm for betweenness centrality&lt;/a&gt;&amp;rdquo; &lt;em&gt;Journal of Mathematical Sociology&lt;/em&gt; &lt;strong&gt;25&lt;/strong&gt;, 2:163-177&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Harriger, Logan, Martijn P. Van Den Heuvel, and Olaf Sporns (2012) &amp;ldquo;
-&lt;a href=&#34;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0046497&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rich club organization of macaque cerebral cortex and its role in network communication&lt;/a&gt;&amp;rdquo; e46497.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Sebastiano Vigna (2016) &amp;ldquo;
-&lt;a href=&#34;https://www.cambridge.org/core/services/aop-cambridge-core/content/view/99ACDCD0CC1B774AB0041FB16AB43D1B/S2050124216000217a.pdf/spectral_ranking.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spectral ranking&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Network Science&lt;/em&gt; &lt;strong&gt;4&lt;/strong&gt;, 4: 433-445&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(all)&lt;/span&gt;&lt;/strong&gt; Fraiberger, Samuel P., Roberta Sinatra, Magnus Resch, Christoph Riedl, and Albert-László Barabási (2018) &amp;ldquo;
-&lt;a href=&#34;https://www.science.org/doi/10.1126/science.aau7224&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quantifying reputation and success in art&lt;/a&gt;&amp;rdquo; &lt;em&gt;Science&lt;/em&gt; &lt;strong&gt;362&lt;/strong&gt;, no. 6416: 825-829&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Sampling and Paradox</title>
-      <link>https://uvaDS8104.github.io/content/07-content/</link>
-      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://uvaDS8104.github.io/content/07-content/</guid>
-      <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  Maiya and Berger-Wolf (2011) “
-&lt;a href=&#34;https://dl.acm.org/doi/10.1145/2020408.2020431&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benefits of Bias: Towards Better Characterization of Network Sampling&lt;/a&gt;.” &lt;em&gt;Proc. KDD ’11&lt;/em&gt;, 105–113&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  Ahmed, Nesreen K., Jennifer Neville, and Ramana Kompella. (2013) &amp;ldquo;
-&lt;a href=&#34;https://dl.acm.org/doi/10.1145/2601438&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Network sampling: From static to streaming graphs&lt;/a&gt;.&amp;rdquo; &lt;em&gt;ACM Transactions on Knowledge Discovery from Data (TKDD)&lt;/em&gt; &lt;strong&gt;8&lt;/strong&gt;, no. 2: 1-56.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Feld, Scott L. (1991) &amp;ldquo;
-&lt;a href=&#34;https://www.jstor.org/stable/2781907#metadata_info_tab_contents&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Why your friends have more friends than you do&lt;/a&gt;&amp;rdquo;, &lt;em&gt;American Journal of Sociology&lt;/em&gt;, &lt;strong&gt;96&lt;/strong&gt; (6): 1464–1477, doi:10.1086/229693&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Pal, Siddharth, Feng Yu, Yitzchak Novick, Ananthram Swami, and Amotz Bar-Noy. (2019) &amp;ldquo;
-&lt;a href=&#34;https://appliednetsci.springeropen.com/articles/10.1007/s41109-019-0190-8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A study on the friendship paradox–quantitative analysis and relationship with assortative mixing&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Applied Network Science&lt;/em&gt; &lt;strong&gt;4&lt;/strong&gt;, no. 1 : 1-26.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(all interested)&lt;/span&gt;&lt;/strong&gt; Barabasi, Albert-Laszlo (2019) 
+&lt;a href=&#34;https://uploads-ssl.webflow.com/58bcae2c9d6c401e73a26fed/5aa01d3e24eebb000199a0a2_loveisallyouneed.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Love is all you need&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
