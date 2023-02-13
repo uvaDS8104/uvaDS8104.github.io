@@ -13,6 +13,161 @@
     </image>
     
     <item>
+      <title>Link Prediction</title>
+      <link>https://uvaDS8104.github.io/content/10-content/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://uvaDS8104.github.io/content/10-content/</guid>
+      <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Lü, Linyuan, and Tao Zhou. (2011) &amp;ldquo;
+&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S037843711000991X&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link prediction in complex networks: A survey&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Physica A: statistical mechanics and its applications&lt;/em&gt; &lt;strong&gt;390&lt;/strong&gt;.6: 1150-1170.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  Yang, Yang, Nitesh Chawla, Yizhou Sun, and Jiawei Hani. (2012) &amp;ldquo;
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/6413854&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Predicting links in multi-relational and heterogeneous networks&lt;/a&gt;.&amp;rdquo; In &lt;em&gt;2012 IEEE 12th international conference on data mining&lt;/em&gt;, pp. 755-764&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  Ghasemian, Amir, Homa Hosseinmardi, Aram Galstyan, Edoardo M. Airoldi, and Aaron Clauset. (2020) &amp;ldquo;
+&lt;a href=&#34;https://www.pnas.org/doi/10.1073/pnas.1914950117&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stacking models for nearly optimal link prediction in complex networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Proceedings of the National Academy of Sciences&lt;/em&gt; &lt;strong&gt;117&lt;/strong&gt;, no. 38: 23393-23400.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Networks in Space</title>
+      <link>https://uvaDS8104.github.io/content/11-content/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://uvaDS8104.github.io/content/11-content/</guid>
+      <description>&lt;h2 id=&#34;assignment&#34;&gt;Assignment&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Project Paper &lt;strong&gt;Tuesday, 4/4&lt;/strong&gt; (due by midnight, EST)&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-presentation&#34;&gt;&lt;/i&gt; Project Presentation &lt;strong&gt;Thursday, 4/6&lt;/strong&gt; (10 minute presentation in class)&lt;/p&gt;
+&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Goyal, Palash, and Emilio Ferrara (2018) &amp;ldquo;
+&lt;a href=&#34;https://arxiv.org/abs/1705.02801&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Graph embedding techniques, applications, and performance: A survey&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Knowledge-Based Systems&lt;/em&gt; &lt;strong&gt;151&lt;/strong&gt;: 78-94.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Barthélemy, Marc (2011) &amp;ldquo;
+&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S037015731000308X&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spatial networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Physics reports&lt;/em&gt; &lt;strong&gt;499&lt;/strong&gt;, no. 1-3: 1-101.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Walks, cascades and processes</title>
+      <link>https://uvaDS8104.github.io/content/12-content/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://uvaDS8104.github.io/content/12-content/</guid>
+      <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Pastor-Satorras, Romualdo, Claudio Castellano, Piet Van Mieghem, and Alessandro Vespignani. (2015) &amp;ldquo;
+&lt;a href=&#34;https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.87.925&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Epidemic processes in complex networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Reviews of modern physics&lt;/em&gt; &lt;strong&gt;87&lt;/strong&gt;, no. 3: 925.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Centola, Damon. (2010) &amp;ldquo;
+&lt;a href=&#34;https://www.science.org/doi/10.1126/science.1185231&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The spread of behavior in an online social network experiment&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Science&lt;/em&gt; &lt;strong&gt;329&lt;/strong&gt;, no. 5996: 1194-1197.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Goel, Sharad, Ashton Anderson, Jake Hofman, and Duncan J. Watts. (2016) &amp;ldquo;
+&lt;a href=&#34;https://pubsonline.informs.org/doi/10.1287/mnsc.2015.2158&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Structural Virality of Online Diffusion&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Management Science&lt;/em&gt; &lt;strong&gt;62&lt;/strong&gt;, no. 1: 180-196.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Graph Neural Networks</title>
+      <link>https://uvaDS8104.github.io/content/13-content/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://uvaDS8104.github.io/content/13-content/</guid>
+      <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-browser&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(all)&lt;/span&gt;&lt;/strong&gt; 
+&lt;a href=&#34;https://distill.pub/2021/gnn-intro/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Gentle Introduction to Graph Neural Networks&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Grover, Aditya, and Jure Leskovec. (2016) &amp;ldquo;
+&lt;a href=&#34;https://arxiv.org/abs/1607.00653&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;node2vec: Scalable Feature Learning for Networks&lt;/a&gt;.&amp;rdquo; In &lt;em&gt;Proceedings of the 22nd ACM SIGKDD international conference on Knowledge discovery and data mining&lt;/em&gt;, pp. 855-864.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Grassia, M., De Domenico, M., &amp;amp; Mangioni, G. (2021). 
+&lt;a href=&#34;https://www.nature.com/articles/s41467-021-25485-8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Machine learning dismantling and early-warning signals of disintegration in complex systems&lt;/a&gt;. &lt;em&gt;Nature Communications&lt;/em&gt;, &lt;strong&gt;12&lt;/strong&gt;(1), 5190.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Qiu, Jiezhong, Jian Tang, Hao Ma, Yuxiao Dong, Kuansan Wang, and Jie Tang. (2018) &amp;ldquo;
+&lt;a href=&#34;https://dl.acm.org/doi/pdf/10.1145/3219819.3220077&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DeepInf: Social Influence Prediction with Deep Learning&lt;/a&gt;&amp;rdquo; In &lt;em&gt;Proceedings of the 24th ACM SIGKDD international conference on knowledge discovery &amp;amp; data mining&lt;/em&gt;, pp. 2110-2119.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/p&gt;
+&lt;h2 id=&#34;other-resources&#34;&gt;Other Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-browser&#34;&gt;&lt;/i&gt; Amazing python library for graph neural networks: 
+&lt;a href=&#34;https://www.pyg.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PyG&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-browser&#34;&gt;&lt;/i&gt; 
+&lt;a href=&#34;https://github.com/thunlp/GNNPapers&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Comprehensive list of GNN publications&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Sanchez-Gonzalez, A., Heess, N., Springenberg, J. T., Merel, J., Riedmiller, M., Hadsell, R., &amp;amp; Battaglia, P. (2018, July). 
+&lt;a href=&#34;https://arxiv.org/pdf/1806.01242.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Graph networks as learnable physics engines for inference and control&lt;/a&gt;. In &lt;em&gt;International Conference on Machine Learning&lt;/em&gt; (pp. 4470-4479). PMLR.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Qi, Charles R., Hao Su, Kaichun Mo, and Leonidas J. Guibas. (2017) &amp;ldquo;
+&lt;a href=&#34;https://arxiv.org/pdf/1612.00593.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pointnet: Deep learning on point sets for 3d classification and segmentation&lt;/a&gt;.&amp;rdquo; In &lt;em&gt;Proceedings of the IEEE conference on computer vision and pattern recognition&lt;/em&gt;, pp. 652-660.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Wang, Yue, Yongbin Sun, Ziwei Liu, Sanjay E. Sarma, Michael M. Bronstein, and Justin M. Solomon. (2019) &amp;ldquo;
+&lt;a href=&#34;https://dl.acm.org/doi/pdf/10.1145/3326362&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dynamic graph cnn for learning on point clouds&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Acm Transactions On Graphics&lt;/em&gt; (tog) &lt;strong&gt;38&lt;/strong&gt;, no. 5: 1-12.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Zhang, Muhan, and Yixin Chen. (2018) &amp;ldquo;
+&lt;a href=&#34;https://arxiv.org/pdf/1802.09691.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link prediction based on graph neural networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Advances in neural information processing systems&lt;/em&gt; &lt;strong&gt;31&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Zitnik, Marinka, Monica Agrawal, and Jure Leskovec. (2018) &amp;ldquo;
+&lt;a href=&#34;https://arxiv.org/abs/1802.00543&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modeling polypharmacy side effects with graph convolutional networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Bioinformatics&lt;/em&gt; &lt;strong&gt;34&lt;/strong&gt;, no. 13: i457-i466.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Jiaxuan You,, Rex Ying, Xiang Ren, William L. Hamilton, Jure Leskovec (2018) 
+&lt;a href=&#34;https://cs.stanford.edu/people/jure/pubs/graphrnn-icml18.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GraphRNN: Generating Realistic Graphs with Deep Auto-regressive Models&lt;/a&gt; &lt;em&gt;ICML&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Hu, Weihua, Matthias Fey, Marinka Zitnik, Yuxiao Dong, Hongyu Ren, Bowen Liu, Michele Catasta, and Jure Leskovec (2020) &amp;ldquo;
+&lt;a href=&#34;https://proceedings.neurips.cc/paper/2020/file/fb60d411a5c5b72b2e7d3527cfc84fd0-Paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Open graph benchmark: Datasets for machine learning on graphs&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Advances in neural information processing systems&lt;/em&gt; &lt;strong&gt;33&lt;/strong&gt;: 22118-22133.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>To infinity and beyond</title>
+      <link>https://uvaDS8104.github.io/content/14-content/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://uvaDS8104.github.io/content/14-content/</guid>
+      <description>&lt;h2 id=&#34;assignment&#34;&gt;Assignment&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-presentation&#34;&gt;&lt;/i&gt; Final Project Presentation &lt;strong&gt;Thursday, 4/27&lt;/strong&gt; (10 minute presentation in class)&lt;/p&gt;
+&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Homophily &amp; Assortativity</title>
       <link>https://uvaDS8104.github.io/content/05-content/</link>
       <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
@@ -20,11 +175,11 @@
       <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; McPherson, Miller, Lynn Smith-Lovin, and James M. Cook.  (2001) &amp;ldquo;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(Jason)&lt;/span&gt;&lt;/strong&gt; McPherson, Miller, Lynn Smith-Lovin, and James M. Cook.  (2001) &amp;ldquo;
 &lt;a href=&#34;https://www.annualreviews.org/doi/abs/10.1146/annurev.soc.27.1.415&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Birds of a feather: Homophily in social networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Annual review of sociology&lt;/em&gt; &lt;strong&gt;27&lt;/strong&gt;: 415-444.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Zheleva &amp;amp; Getoor (2009) “
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(Navya)&lt;/span&gt;&lt;/strong&gt; Zheleva &amp;amp; Getoor (2009) “
 &lt;a href=&#34;https://dl.acm.org/doi/10.1145/1526709.1526781&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;To Join or Not to Join: The Illusion of Privacy in Social Networks with Mixed Public and Private User Profiles&lt;/a&gt;.” &lt;em&gt;Proc. 18th Internat. Conf. World Wide Web (WWW)&lt;/em&gt;, 531–540&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -32,7 +187,7 @@
 &lt;a href=&#34;https://journals.aps.org/pre/pdf/10.1103/PhysRevE.67.026126&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mixing patterns in networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Physical review E&lt;/em&gt; &lt;strong&gt;67&lt;/strong&gt;, no. 2: 026126.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Peel, Leto, Jean-Charles Delvenne, and Renaud Lambiotte. (2018) &amp;ldquo;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(Joseph)&lt;/span&gt;&lt;/strong&gt;  Peel, Leto, Jean-Charles Delvenne, and Renaud Lambiotte. (2018) &amp;ldquo;
 &lt;a href=&#34;https://www.pnas.org/doi/10.1073/pnas.1713019115&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Multiscale mixing patterns in networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Proceedings of the National Academy of Sciences&lt;/em&gt; &lt;strong&gt;115&lt;/strong&gt;, no. 16: 4057-4062.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -75,7 +230,9 @@
       <link>https://uvaDS8104.github.io/content/07-content/</link>
       <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
       <guid>https://uvaDS8104.github.io/content/07-content/</guid>
-      <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;assignment&#34;&gt;Assignment&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-presentation&#34;&gt;&lt;/i&gt; Introduce Project Paper &lt;strong&gt;Thursday, 3/2&lt;/strong&gt; (5-7 minute presentation in class)&lt;/p&gt;
+&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  Maiya and Berger-Wolf (2011) “
@@ -92,6 +249,52 @@
 &lt;li&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Pal, Siddharth, Feng Yu, Yitzchak Novick, Ananthram Swami, and Amotz Bar-Noy. (2019) &amp;ldquo;
 &lt;a href=&#34;https://appliednetsci.springeropen.com/articles/10.1007/s41109-019-0190-8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A study on the friendship paradox–quantitative analysis and relationship with assortative mixing&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Applied Network Science&lt;/em&gt; &lt;strong&gt;4&lt;/strong&gt;, no. 1 : 1-26.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Community Detection</title>
+      <link>https://uvaDS8104.github.io/content/08-content/</link>
+      <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://uvaDS8104.github.io/content/08-content/</guid>
+      <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Fortunato, Santo, and Darko Hric. (2016) &amp;ldquo;
+&lt;a href=&#34;https://arxiv.org/abs/1608.00163&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Community detection in networks: A user guide&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Physics reports&lt;/em&gt; &lt;strong&gt;659&lt;/strong&gt;: 1-44.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  Red, Veronica, Eric D. Kelsic, Peter J. Mucha, and Mason A. Porter. (2011) &amp;ldquo;
+&lt;a href=&#34;https://arxiv.org/abs/0809.0690&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Comparing community structure to characteristics in online collegiate social networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;SIAM review&lt;/em&gt; &lt;strong&gt;53&lt;/strong&gt;, no. 3: 526-543.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Community Detection II</title>
+      <link>https://uvaDS8104.github.io/content/09-content/</link>
+      <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://uvaDS8104.github.io/content/09-content/</guid>
+      <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Peixoto, Tiago P. (2019) &amp;ldquo;
+&lt;a href=&#34;https://arxiv.org/abs/1705.10225&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bayesian stochastic blockmodeling&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Advances in network clustering and blockmodeling&lt;/em&gt;: 289-332.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Young, Jean-Gabriel, Guillaume St-Onge, Patrick Desrosiers, and Louis J. Dubé. (2018) &amp;ldquo;
+&lt;a href=&#34;https://arxiv.org/abs/1806.04214&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Universality of the stochastic block model&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Physical Review E&lt;/em&gt; &lt;strong&gt;98&lt;/strong&gt;, no. 3: 032309.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  Peixoto, Tiago P. (2022) &amp;ldquo;
+&lt;a href=&#34;https://journals.aps.org/prx/abstract/10.1103/PhysRevX.12.011004&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disentangling homophily, community structure, and triadic closure in networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Physical Review X&lt;/em&gt; &lt;strong&gt;12&lt;/strong&gt;.1: 011004&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
@@ -356,7 +559,7 @@
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Feb 28&lt;/td&gt;
-            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Network Sampling&lt;/td&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Network Sampling &amp;amp; Paradox&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
@@ -366,7 +569,7 @@
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Mar 2&lt;/td&gt;
-            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Friendship Paradox&lt;/td&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Introduce Project Paper&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
@@ -414,75 +617,63 @@
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Mar 14&lt;/td&gt;
-            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;What are communities?&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://uvaDS8104.github.io/content/08-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Mar 16&lt;/td&gt;
-            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;How to compare communities&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://uvaDS8104.github.io/content/08-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Mar 21&lt;/td&gt;
-            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Stochastic Block Models&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://uvaDS8104.github.io/content/09-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Mar 23&lt;/td&gt;
-            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Stochastic Block Models II&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://uvaDS8104.github.io/content/09-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Mar 28&lt;/td&gt;
-            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Predicting connections&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://uvaDS8104.github.io/content/10-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Mar 30&lt;/td&gt;
-            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Links are stacked in our favor&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://uvaDS8104.github.io/content/10-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
@@ -493,19 +684,17 @@
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Apr 4&lt;/td&gt;
-            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Networks in Space&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://uvaDS8104.github.io/content/11-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Apr 6&lt;/td&gt;
-            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Project Presentation&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
@@ -517,51 +706,53 @@
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Apr 11&lt;/td&gt;
-            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;The drunken network&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://uvaDS8104.github.io/content/12-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Apr 13&lt;/td&gt;
-            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Complex cascades&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://uvaDS8104.github.io/content/12-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Apr 18&lt;/td&gt;
-            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Graph Neural Networks&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://uvaDS8104.github.io/content/13-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Apr 20&lt;/td&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Graph Neural Networks II&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
+                &lt;font color=&#34;f1f1f1&#34;&gt;
+                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://uvaDS8104.github.io/content/13-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Apr 25&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://uvaDS8104.github.io/content/14-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
@@ -571,20 +762,8 @@
             &lt;td style=&#34;width:8%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Readings&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Apr 25&lt;/td&gt;
-            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Apr 27&lt;/td&gt;
-            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Final Project Presentation&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
