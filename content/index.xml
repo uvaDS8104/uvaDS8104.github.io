@@ -44,7 +44,7 @@
       <guid>https://uvaDS8104.github.io/content/11-content/</guid>
       <description>&lt;h2 id=&#34;assignment&#34;&gt;Assignment&lt;/h2&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Project Paper &lt;strong&gt;Tuesday, 4/4&lt;/strong&gt; (due by midnight, EST)&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-presentation&#34;&gt;&lt;/i&gt; Project Presentation &lt;strong&gt;Thursday, 4/6&lt;/strong&gt; (10 minute presentation in class)&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Project Presentation &lt;strong&gt;Thursday, 4/6&lt;/strong&gt; (10 minute presentation in class)&lt;/p&gt;
 &lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -94,7 +94,7 @@
       <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-browser&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(all)&lt;/span&gt;&lt;/strong&gt; 
+&lt;p&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(all)&lt;/span&gt;&lt;/strong&gt; 
 &lt;a href=&#34;https://distill.pub/2021/gnn-intro/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Gentle Introduction to Graph Neural Networks&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -115,11 +115,11 @@
 &lt;h2 id=&#34;other-resources&#34;&gt;Other Resources&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-browser&#34;&gt;&lt;/i&gt; Amazing python library for graph neural networks: 
+&lt;p&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; Amazing python library for graph neural networks: 
 &lt;a href=&#34;https://www.pyg.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PyG&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-browser&#34;&gt;&lt;/i&gt; 
+&lt;p&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; 
 &lt;a href=&#34;https://github.com/thunlp/GNNPapers&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Comprehensive list of GNN publications&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -192,7 +192,8 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; 
+&lt;a href=&#34;https://uvaDS8104.github.io/slides/ds8104_class5_homophily.pdf&#34;&gt;Intro to homophily&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -209,7 +210,7 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Harriger, Logan, Martijn P. Van Den Heuvel, and Olaf Sporns (2012) &amp;ldquo;
-&lt;a href=&#34;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0046497&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rich club organization of macaque cerebral cortex and its role in network communication&lt;/a&gt;&amp;rdquo; e46497.&lt;/p&gt;
+&lt;a href=&#34;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0046497&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rich club organization of macaque cerebral cortex and its role in network communication&lt;/a&gt;&amp;rdquo; &lt;em&gt;PLoS One&lt;/em&gt; e46497.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Sebastiano Vigna (2016) &amp;ldquo;
@@ -231,7 +232,7 @@
       <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
       <guid>https://uvaDS8104.github.io/content/07-content/</guid>
       <description>&lt;h2 id=&#34;assignment&#34;&gt;Assignment&lt;/h2&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-presentation&#34;&gt;&lt;/i&gt; Introduce Project Paper &lt;strong&gt;Thursday, 3/2&lt;/strong&gt; (5-7 minute presentation in class)&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Introduce Project Paper &lt;strong&gt;Thursday, 3/2&lt;/strong&gt; (5-7 minute presentation in class)&lt;/p&gt;
 &lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -264,7 +265,7 @@
       <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Fortunato, Santo, and Darko Hric. (2016) &amp;ldquo;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Two presenters: (Sec II &amp;amp; III) and (Sec IV) Fortunato, Santo, and Darko Hric. (2016) &amp;ldquo;
 &lt;a href=&#34;https://arxiv.org/abs/1608.00163&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Community detection in networks: A user guide&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Physics reports&lt;/em&gt; &lt;strong&gt;659&lt;/strong&gt;: 1-44.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
