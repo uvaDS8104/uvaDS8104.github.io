@@ -194,6 +194,8 @@
 &lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; 
 &lt;a href=&#34;https://uvaDS8104.github.io/slides/ds8104_class5_homophily.pdf&#34;&gt;Intro to homophily&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; 
+&lt;a href=&#34;https://uvaDS8104.github.io/slides/ds8104_class9_assortativity.pdf&#34;&gt;Measuring assortativity &amp;amp; Random Walks&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -205,15 +207,15 @@
       <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Ulrik Brandes (2001) &amp;ldquo;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(Weili)&lt;/span&gt;&lt;/strong&gt; Ulrik Brandes (2001) &amp;ldquo;
 &lt;a href=&#34;https://www.tandfonline.com/doi/pdf/10.1080/0022250X.2001.9990249&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A faster algorithm for betweenness centrality&lt;/a&gt;&amp;rdquo; &lt;em&gt;Journal of Mathematical Sociology&lt;/em&gt; &lt;strong&gt;25&lt;/strong&gt;, 2:163-177&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Harriger, Logan, Martijn P. Van Den Heuvel, and Olaf Sporns (2012) &amp;ldquo;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(Daiqing)&lt;/span&gt;&lt;/strong&gt; Harriger, Logan, Martijn P. Van Den Heuvel, and Olaf Sporns (2012) &amp;ldquo;
 &lt;a href=&#34;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0046497&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rich club organization of macaque cerebral cortex and its role in network communication&lt;/a&gt;&amp;rdquo; &lt;em&gt;PLoS One&lt;/em&gt; e46497.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Sebastiano Vigna (2016) &amp;ldquo;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(Zhanwen)&lt;/span&gt;&lt;/strong&gt; Sebastiano Vigna (2016) &amp;ldquo;
 &lt;a href=&#34;https://www.cambridge.org/core/services/aop-cambridge-core/content/view/99ACDCD0CC1B774AB0041FB16AB43D1B/S2050124216000217a.pdf/spectral_ranking.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spectral ranking&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Network Science&lt;/em&gt; &lt;strong&gt;4&lt;/strong&gt;, 4: 433-445&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
