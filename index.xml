@@ -290,10 +290,11 @@
       <guid>https://uvaDS8104.github.io/content/09-content/</guid>
       <description>&lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Peixoto, Tiago P. (2019) &amp;ldquo;
-&lt;a href=&#34;https://arxiv.org/abs/1705.10225&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bayesian stochastic blockmodeling&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Advances in network clustering and blockmodeling&lt;/em&gt;: 289-332.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(all)&lt;/span&gt;&lt;/strong&gt; Peixoto, Tiago P. (2019) &amp;ldquo;
+&lt;a href=&#34;https://arxiv.org/abs/1705.10225&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bayesian stochastic blockmodeling&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Advances in network clustering and blockmodeling&lt;/em&gt;: 289-332.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;other-resources&#34;&gt;Other Resources&lt;/h2&gt;
+&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Young, Jean-Gabriel, Guillaume St-Onge, Patrick Desrosiers, and Louis J. Dubé. (2018) &amp;ldquo;
 &lt;a href=&#34;https://arxiv.org/abs/1806.04214&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Universality of the stochastic block model&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Physical Review E&lt;/em&gt; &lt;strong&gt;98&lt;/strong&gt;, no. 3: 032309.&lt;/p&gt;
