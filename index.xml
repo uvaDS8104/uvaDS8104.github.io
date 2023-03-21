@@ -44,7 +44,7 @@
       <guid>https://uvaDS8104.github.io/content/11-content/</guid>
       <description>&lt;h2 id=&#34;assignment&#34;&gt;Assignment&lt;/h2&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Project Presentation &lt;strong&gt;Tuesday, 4/4&lt;/strong&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(Weili, Jason, Joseph)&lt;/span&gt;&lt;/strong&gt;  (20 minute presentation in class)&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Project Presentation &lt;strong&gt;Thursday, 4/6&lt;/strong&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(Weili, Navya, Daiqing)&lt;/span&gt;&lt;/strong&gt;  (20 minute presentation in class)&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Project Presentation &lt;strong&gt;Thursday, 4/6&lt;/strong&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(Zhanwen, Navya, Daiqing)&lt;/span&gt;&lt;/strong&gt;  (20 minute presentation in class)&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Project Paper &lt;strong&gt;Sunday, 4/9&lt;/strong&gt; (due by midnight, EST)&lt;/p&gt;
 &lt;h2 id=&#34;other-resources&#34;&gt;Other Resources&lt;/h2&gt;
 &lt;ul&gt;
@@ -161,7 +161,8 @@
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
       <guid>https://uvaDS8104.github.io/content/14-content/</guid>
       <description>&lt;h2 id=&#34;assignment&#34;&gt;Assignment&lt;/h2&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-presentation&#34;&gt;&lt;/i&gt; Final Project Presentation &lt;strong&gt;Thursday, 4/27&lt;/strong&gt; (10 minute presentation in class)&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-presentation&#34;&gt;&lt;/i&gt; Final Project Presentation &lt;strong&gt;Tuesday, 4/25&lt;/strong&gt; (20 minute presentation in class)&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-presentation&#34;&gt;&lt;/i&gt; Final Project Presentation &lt;strong&gt;Thursday, 4/27&lt;/strong&gt; (20 minute presentation in class)&lt;/p&gt;
 &lt;h2 id=&#34;readings&#34;&gt;Readings&lt;/h2&gt;
 &lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/p&gt;
@@ -691,7 +692,7 @@
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Apr 4&lt;/td&gt;
-            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Networks in Space&lt;/td&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Project Presentation&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
@@ -701,15 +702,13 @@
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Apr 6&lt;/td&gt;
-            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Project Presentation&lt;/td&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Project Presentation II&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://uvaDS8104.github.io/content/11-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Apr 11&lt;/td&gt;
@@ -752,21 +751,21 @@
                     &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;span class=&#34;fake-header-table&#34;&gt;Final Presentations&lt;/span&gt;&lt;/td&gt;
+
+            &lt;td style=&#34;width:8%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Slides&lt;/td&gt;
+            &lt;td style=&#34;width:8%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Readings&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Apr 25&lt;/td&gt;
-            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;/td&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Final Project Presentation&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-chalkboard-teacher fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://uvaDS8104.github.io/content/14-content/&#34;&gt;
                     &lt;i class=&#34;fas fa-file-pdf fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
-            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;span class=&#34;fake-header-table&#34;&gt;Final Presentations&lt;/span&gt;&lt;/td&gt;
-
-            &lt;td style=&#34;width:8%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Slides&lt;/td&gt;
-            &lt;td style=&#34;width:8%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Readings&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Apr 27&lt;/td&gt;
