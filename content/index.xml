@@ -24,11 +24,11 @@
 &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S037843711000991X&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link prediction in complex networks: A survey&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Physica A: statistical mechanics and its applications&lt;/em&gt; &lt;strong&gt;390&lt;/strong&gt;.6: 1150-1170.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  Yang, Yang, Nitesh Chawla, Yizhou Sun, and Jiawei Hani. (2012) &amp;ldquo;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(Daiqing)&lt;/span&gt;&lt;/strong&gt; Yang, Yang, Nitesh Chawla, Yizhou Sun, and Jiawei Hani. (2012) &amp;ldquo;
 &lt;a href=&#34;https://ieeexplore.ieee.org/document/6413854&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Predicting links in multi-relational and heterogeneous networks&lt;/a&gt;.&amp;rdquo; In &lt;em&gt;2012 IEEE 12th international conference on data mining&lt;/em&gt;, pp. 755-764&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  Ghasemian, Amir, Homa Hosseinmardi, Aram Galstyan, Edoardo M. Airoldi, and Aaron Clauset. (2020) &amp;ldquo;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;  &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(Navya)&lt;/span&gt;&lt;/strong&gt; Ghasemian, Amir, Homa Hosseinmardi, Aram Galstyan, Edoardo M. Airoldi, and Aaron Clauset. (2020) &amp;ldquo;
 &lt;a href=&#34;https://www.pnas.org/doi/10.1073/pnas.1914950117&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stacking models for nearly optimal link prediction in complex networks&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Proceedings of the National Academy of Sciences&lt;/em&gt; &lt;strong&gt;117&lt;/strong&gt;, no. 38: 23393-23400.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -99,15 +99,15 @@
 &lt;a href=&#34;https://distill.pub/2021/gnn-intro/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Gentle Introduction to Graph Neural Networks&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Grover, Aditya, and Jure Leskovec. (2016) &amp;ldquo;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(Weili)&lt;/span&gt;&lt;/strong&gt; Grover, Aditya, and Jure Leskovec. (2016) &amp;ldquo;
 &lt;a href=&#34;https://arxiv.org/abs/1607.00653&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;node2vec: Scalable Feature Learning for Networks&lt;/a&gt;.&amp;rdquo; In &lt;em&gt;Proceedings of the 22nd ACM SIGKDD international conference on Knowledge discovery and data mining&lt;/em&gt;, pp. 855-864.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Grassia, M., De Domenico, M., &amp;amp; Mangioni, G. (2021). 
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(Jason)&lt;/span&gt;&lt;/strong&gt; Grassia, M., De Domenico, M., &amp;amp; Mangioni, G. (2021). 
 &lt;a href=&#34;https://www.nature.com/articles/s41467-021-25485-8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Machine learning dismantling and early-warning signals of disintegration in complex systems&lt;/a&gt;. &lt;em&gt;Nature Communications&lt;/em&gt;, &lt;strong&gt;12&lt;/strong&gt;(1), 5190.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Qiu, Jiezhong, Jian Tang, Hao Ma, Yuxiao Dong, Kuansan Wang, and Jie Tang. (2018) &amp;ldquo;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;span style=&#34;color:#D16C66&#34;&gt;(Joseph)&lt;/span&gt;&lt;/strong&gt; Qiu, Jiezhong, Jian Tang, Hao Ma, Yuxiao Dong, Kuansan Wang, and Jie Tang. (2018) &amp;ldquo;
 &lt;a href=&#34;https://dl.acm.org/doi/pdf/10.1145/3219819.3220077&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DeepInf: Social Influence Prediction with Deep Learning&lt;/a&gt;&amp;rdquo; In &lt;em&gt;Proceedings of the 24th ACM SIGKDD international conference on knowledge discovery &amp;amp; data mining&lt;/em&gt;, pp. 2110-2119.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
